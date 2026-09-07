@@ -1,26 +1,98 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-obsidian: #0A0A0C;
+  --color-bone: #F5F4F0;
+  --color-vermilion: #FF3B00;
+  --color-graphite: #7A7975;
+  --color-surface: #121215;
+  --color-line: rgba(245, 244, 240, 0.12);
+
+  --font-display: var(--font-space-grotesk), "Space Grotesk", sans-serif;
+  --font-body: var(--font-public-sans), "Public Sans", sans-serif;
+
+  --letter-spacing-tightest: -0.07em;
+  --letter-spacing-tighter: -0.04em;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #0A0A0C;
+  }
+  body {
+    background-color: #0A0A0C;
+    color: #F5F4F0;
+    font-family: var(--font-public-sans), "Public Sans", sans-serif;
+    overflow-x: hidden;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+::selection {
+  background-color: #FF3B00;
+  color: #0A0A0C;
+}
+
+/* Film Grain Overlay */
+.film-grain {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Hero Monolithic Typography Motion */
+.word-inter,
+.word-sect {
+  will-change: transform;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Converging Typographic Planes */
+.converge-row {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.plane-need {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease;
+}
+.plane-person {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease;
+}
+
+.converge-row:hover .plane-need {
+  transform: translateX(18px);
+}
+.converge-row:hover .plane-person {
+  transform: translateX(-18px);
+}
+
+@media (max-width: 1024px) {
+  .converge-row:hover .plane-need,
+  .converge-row:hover .plane-person {
+    transform: none;
+  }
+}
+
+/* Utility Helpers */
+.border-line {
+  border-color: rgba(245, 244, 240, 0.12);
+}
+
+.tracking-tightest {
+  letter-spacing: -0.07em;
+}
+.tracking-tighter {
+  letter-spacing: -0.04em;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
