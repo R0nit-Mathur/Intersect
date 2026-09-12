@@ -1,7 +1,6 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g fill="#E8E8E3">
-    <!-- Hexagonal Vector Database Emblem -->
-    <path d="M175.5 95l60 34.6v69.3l-60 34.6-60-34.6v-69.3l60-34.6zm0 24l-39.2 22.6v45.3l39.2 22.6 39.2-22.6v-45.3l-39.2-22.6z"/>
-    <circle cx="175.5" cy="164.3" r="16"/>
+    <path d="M175.5 100l58 33.5v67l-58 33.5-58-33.5v-67l58-33.5zm0 21l-39.8 23v46l39.8 23 39.8-23v-46l-39.8-23z"/>
+    <circle cx="175.5" cy="167" r="14"/>
   </g>
 </svg>
