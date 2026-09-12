@@ -1,5 +1,7 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M112 118l36 60h40l-54-94h-40l-36 60h40l14-26z" fill="#E8E8E3"/>
-  <path d="M175.5 182l26-44h40l-46 79-46-79h40l-14 44z" fill="#E8E8E3"/>
-  <path d="M197 118l36-60h-40l-54 94h40l36-60z" fill="#E8E8E3"/>
+  <g fill="#E8E8E3">
+    <path d="M112 118l36 60h40l-54-94h-40l-36 60h40l14-26z"/>
+    <path d="M175.5 182l26-44h40l-46 79-46-79h40l-14 44z"/>
+    <path d="M197 118l36-60h-40l-54 94h40l36-60z"/>
+  </g>
 </svg>
