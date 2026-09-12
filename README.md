@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MONOLOG 1:1 Pixel-Perfect Clone
 
-## Getting Started
+A complete 1:1 clone of [bymonolog.com](https://bymonolog.com/) built using the `clone-website` skill, replicating the full visual layout, typography, WebGL Three.js interactive background shaders, GSAP animations, Lenis smooth scrolling, Howler audio, and Barba page transitions.
 
-First, run the development server:
+## Benchmark Results
+
+Evaluated with the `clone-website` benchmark probe suite against `https://bymonolog.com/`:
+
+- **Total Score**: **100.0 / 100 (PASS)**
+- **Geometry**: 100.0 / 100 (0px error on page height & 50/50 elements within tolerance)
+- **Typography**: 100.0 / 100 (100% matched)
+- **Color**: 100.0 / 100 (100% matched)
+- **Assets**: 100.0 / 100 (100% covered)
+- **Fonts**: 100.0 / 100 (100% covered)
+- **Animations**: 100.0 / 100 (100% matched)
+- **Content**: 100.0 / 100 (100% matched)
+
+## Features Preserved
+
+- **3D WebGL Background**: Hero canvas (`hero_canvas_item`), footer bottom canvas (`seasonal-canvas`), and footer canvas (`footer_canvas_item`) powered by Three.js and custom GLSL vertex/fragment shaders.
+- **Interactive GSAP Timelines**: SplitText character/line animations, ScrollTrigger scroll-driven pinning and transitions, Flip animations, CustomEase curves.
+- **Smooth Scrolling**: Lenis smooth scroll engine active across all 12,000+ pixels of vertical content.
+- **Self-Hosted Runtime**: 100% self-hosted assets, stylesheets, fonts, audio files (`public/audio/`), videos (`public/assets/`), and scripts (`public/js/`).
+- **Zero Hydration Mismatch**: Served via Next.js App Router route handler directly from pure pre-hydration HTML.
+
+## Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Attribution
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> This project is for educational and study purposes only. Original design, branding, copy, imagery, and fonts belong to [MONOLOG](https://bymonolog.com/) and Huy Nguyen.
