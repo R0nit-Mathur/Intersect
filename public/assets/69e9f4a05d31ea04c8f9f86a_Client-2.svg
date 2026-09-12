@@ -1,9 +1,9 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g fill="currentColor">
-  <rect x="125" y="100" width="46" height="46" rx="2" />
-  <rect x="180" y="100" width="46" height="46" rx="2" />
-  <rect x="125" y="155" width="46" height="46" rx="2" />
-  <rect x="180" y="155" width="46" height="46" rx="2" />
-  <text x="50%" y="235" text-anchor="middle" font-family="'KHTeka', 'Animo', sans-serif" font-weight="600" font-size="30" letter-spacing="0.04em">Microsoft</text>
-</g>
+  <g fill="#E8E8E3">
+    <rect x="122" y="115" width="48" height="48" rx="2" />
+    <rect x="181" y="115" width="48" height="48" rx="2" />
+    <rect x="122" y="174" width="48" height="48" rx="2" />
+    <rect x="181" y="174" width="48" height="48" rx="2" />
+  </g>
+  <text x="175.5" y="250" fill="#E8E8E3" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" letter-spacing="4" text-anchor="middle">MICROSOFT</text>
 </svg>

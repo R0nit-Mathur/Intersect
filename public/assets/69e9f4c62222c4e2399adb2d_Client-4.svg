@@ -1,6 +1,7 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g fill="currentColor">
-  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" font-family="'Animo', 'KHTeka', sans-serif" font-weight="800" font-size="76" letter-spacing="-0.04em">groq</text>
-  <rect x="120" y="215" width="111" height="4" rx="2" fill="currentColor" opacity="0.4" />
-</g>
+  <g fill="#E8E8E3">
+    <path d="M175.5 110c-35 0-60 25-60 60s25 60 60 60c20 0 36-10 46-24l-16-12c-7 10-18 16-30 16-22 0-38-16-38-40s16-40 38-40c12 0 23 6 30 16l16-12c-10-14-26-24-46-24z"/>
+    <rect x="185" y="160" width="45" height="18" rx="3"/>
+  </g>
+  <text x="175.5" y="248" fill="#E8E8E3" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" letter-spacing="6" text-anchor="middle">GROQ</text>
 </svg>
