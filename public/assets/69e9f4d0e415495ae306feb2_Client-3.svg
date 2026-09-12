@@ -1,8 +1,5 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <circle cx="150" cy="160" r="42" fill="#E8E8E3" />
-    <circle cx="201" cy="160" r="42" fill="#938F8A" fill-opacity="0.85" />
-    <path d="M175.5 130.8a41.9 41.9 0 0 1 16.5 29.2 41.9 41.9 0 0 1-16.5 29.2 41.9 41.9 0 0 1-16.5-29.2 41.9 41.9 0 0 1 16.5-29.2z" fill="#E8E8E3" />
-  </g>
-  <text x="175.5" y="235" fill="#E8E8E3" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" letter-spacing="3" text-anchor="middle">MASTERCARD</text>
+  <circle cx="140" cy="175.5" r="55" fill="#E8E8E3" />
+  <circle cx="211" cy="175.5" r="55" fill="#938F8A" fill-opacity="0.8" />
+  <path d="M175.5 137.2a54.8 54.8 0 0 1 21.6 38.3 54.8 54.8 0 0 1-21.6 38.3 54.8 54.8 0 0 1-21.6-38.3 54.8 54.8 0 0 1 21.6-38.3z" fill="#E8E8E3" />
 </svg>

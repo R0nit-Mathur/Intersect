@@ -1,9 +1,7 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g fill="#E8E8E3">
-    <!-- Vultr stylized folded V mark -->
-    <path d="M125 125l32 55h37l-51-85h-36l-32 55h37l13-25z"/>
-    <path d="M175.5 180l22-38h37l-41 70-41-70h37l-14 38z"/>
-    <path d="M194 125l32-55h-36l-51 85h37l32-55z"/>
+    <path d="M115 115l38 65h42l-58-100h-42l-38 65h42l16-30z"/>
+    <path d="M175.5 180l26-45h42l-48 83-48-83h42l-14 45z"/>
+    <path d="M198 115l38-65h-42l-58 100h42l38-65z"/>
   </g>
-  <text x="175.5" y="250" fill="#E8E8E3" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" letter-spacing="5" text-anchor="middle">VULTR</text>
 </svg>

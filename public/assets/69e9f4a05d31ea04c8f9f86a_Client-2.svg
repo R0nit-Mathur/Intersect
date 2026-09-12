@@ -1,9 +1,8 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g fill="#E8E8E3">
-    <rect x="122" y="115" width="48" height="48" rx="2" />
-    <rect x="181" y="115" width="48" height="48" rx="2" />
-    <rect x="122" y="174" width="48" height="48" rx="2" />
-    <rect x="181" y="174" width="48" height="48" rx="2" />
+    <rect x="110" y="110" width="60" height="60" rx="3" />
+    <rect x="181" y="110" width="60" height="60" rx="3" />
+    <rect x="110" y="181" width="60" height="60" rx="3" />
+    <rect x="181" y="181" width="60" height="60" rx="3" />
   </g>
-  <text x="175.5" y="250" fill="#E8E8E3" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" letter-spacing="4" text-anchor="middle">MICROSOFT</text>
 </svg>

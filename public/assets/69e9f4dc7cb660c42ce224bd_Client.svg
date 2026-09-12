@@ -1,8 +1,6 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g fill="#E8E8E3">
-    <!-- Stylized modern P mark -->
-    <path d="M140 120h45c22 0 38 15 38 36s-16 36-38 36h-25v38h-20V120zm20 54h25c11 0 18-7 18-18s-7-18-18-18h-25v36z"/>
-    <circle cx="230" cy="138" r="8" fill="#938F8A"/>
+    <path d="M130 105h55c26 0 46 19 46 44s-20 44-46 44h-30v48h-25V105zm25 64h30c13 0 21-8 21-20s-8-20-21-20h-30v40z"/>
+    <circle cx="238" cy="125" r="10" fill="#938F8A"/>
   </g>
-  <text x="175.5" y="252" fill="#E8E8E3" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" letter-spacing="4" text-anchor="middle">PAYTM</text>
 </svg>

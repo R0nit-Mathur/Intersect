@@ -1,8 +1,7 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g fill="#E8E8E3">
-    <!-- Qdrant Vector Geometric Cube / Hexagon mark -->
-    <path d="M175.5 110l45 26v52l-45 26-45-26v-52l45-26zm0 18l-30 17.3v34.7l30 17.3 30-17.3v-34.7l-30-17.3z"/>
-    <circle cx="175.5" cy="162" r="12"/>
+    <!-- Hexagonal Vector Database Emblem -->
+    <path d="M175.5 95l60 34.6v69.3l-60 34.6-60-34.6v-69.3l60-34.6zm0 24l-39.2 22.6v45.3l39.2 22.6 39.2-22.6v-45.3l-39.2-22.6z"/>
+    <circle cx="175.5" cy="164.3" r="16"/>
   </g>
-  <text x="175.5" y="250" fill="#E8E8E3" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="4" text-anchor="middle">QDRANT</text>
 </svg>

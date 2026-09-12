@@ -1,11 +1,9 @@
 <svg width="351" height="351" viewBox="0 0 351 351" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g fill="#E8E8E3">
-    <!-- Audio Waveform / AI Voice icon -->
-    <rect x="125" y="152" width="12" height="36" rx="6" />
-    <rect x="145" y="132" width="12" height="76" rx="6" />
-    <rect x="165" y="118" width="12" height="104" rx="6" />
-    <rect x="185" y="138" width="12" height="64" rx="6" />
-    <rect x="205" y="156" width="12" height="28" rx="6" />
+    <rect x="110" y="150" width="16" height="51" rx="8" />
+    <rect x="136" y="125" width="16" height="101" rx="8" />
+    <rect x="162" y="105" width="16" height="141" rx="8" />
+    <rect x="188" y="132" width="16" height="87" rx="8" />
+    <rect x="214" y="156" width="16" height="39" rx="8" />
   </g>
-  <text x="175.5" y="252" fill="#E8E8E3" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" letter-spacing="6" text-anchor="middle">VAPI</text>
 </svg>
